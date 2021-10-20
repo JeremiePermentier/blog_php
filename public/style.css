@@ -1,0 +1,115 @@
+/* RESET */
+body, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* FONT */
+
+h1, h2, h3, h4 {
+    font-family: 'Nunito', sans-serif;
+}
+p, label, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* BODY */
+
+body {
+    background-color: #eee;
+}
+
+/* FORM */
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #FFF;
+    border-radius: 3px;
+    padding: 1rem;
+    box-shadow: -3px 3px 9px #5e5e5e;
+}
+
+.form__title {
+    margin-bottom: 1rem;
+}
+
+.form__label {
+    margin-bottom: 0.5rem;
+}
+
+.form__input, .form__btn {
+    margin-bottom: 1rem;
+    border-radius: 0px;
+    border: 1px solid #E1E1E1;
+}
+
+.form__input {
+    height: 1.5rem;
+}
+
+.form__btn {
+    height: 2rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: ease 200ms;
+}
+.form__btn:hover {
+    background-color: rgb(45, 98, 245);
+    cursor: pointer;
+}
+
+.form__link {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #000;
+    transition: ease 200ms;
+}
+.form__link:hover {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: rgb(45, 98, 245);
+}
+
+/* CARD */
+
+.card {
+    max-width: 400px;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card_author {
+    margin: 0;
+}
+
+.card_content {
+    padding: 1rem;
+    text-align: end;
+}
+.card_content--title, .card_content--text {
+    text-align: left;
+}
+
+.card-error {
+    background: #ffb5b5;
+    border: 1px solid red;
+    border-radius: 3px;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 1rem;
+}
